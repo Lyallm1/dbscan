@@ -1,1 +1,1 @@
-export * from './dbscan';
+export * from './dbscan.js';

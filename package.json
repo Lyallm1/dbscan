@@ -5,17 +5,11 @@
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
   "types": "./lib/index.d.ts",
-  "keywords": [
-    "clustering",
-    "dbscan"
-  ],
+  "keywords": ["clustering", "dbscan"],
   "author": "DoubleCorner <peiwenqi.mcs@gmail.com> (https://github.com/DoubleCorner)",
   "license": "MIT",
-  "files": [
-    "src",
-    "lib",
-    "lib-esm"
-  ],
+  "files": ["src", "lib", "lib-esm"],
+  "type": "module",
   "scripts": {
     "check-types": "tsc --noEmit",
     "clean": "rimraf lib lib-esm",
